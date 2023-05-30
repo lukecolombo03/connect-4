@@ -1,0 +1,26 @@
+all.model.IModel
+all.model.IModelState
+all.model.ConnectNModel
+
+all.controller.IController
+all.controller.TextViewController
+
+all.view.IView
+ConnectFourTextView
+
+Player (enum)
+
+TODO:
+-make an AI:
+-add 3+ player capabilities (connect 4 modded 😎)
+-when you start the program, have an options menu where you can choose how many players,
+if theres a bot, etc
+
+Bot Strategy Priorities (in order):
+1. Get 4 in a row
+2. Block opponent from winning
+3.
+
+How to add a bot?
+Have to change something in Controller.place()
+Idk why the bot is just breaking the program now you can't place anything lol
